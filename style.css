@@ -8,63 +8,43 @@ body {
 }
 
 .hero {
+    padding: 12rem;
     color:white;
-    height: 1200px;
+    height: 100vh;
     background-color: #efefef;
-    background-image:url(img/home.jpg);
+    background-image: url(img/home.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.hero__container {
     text-align: center;
 }
 
-.hero__logo {
-    display: flex;
+.hero__container {
+    padding: 2rem;
+    text-align: center;
 }
 
-.hero__logoimg {
-    width: 90px;
-    height: 50px;
-    display: block;
-    margin: auto;
-}
-
-.hero__namelogo {
-    margin: 0;
-    padding: 10rem;
-}
-
-.hero__title {
-    margin: 0;
-    font-size: 100px;
-}
-
-.hero__place {
-    margin: 0;
-    font-size: 40px;
+.hero__img {
+    width: 320px;
 }
 
 .hero__date {
-    margin: 2rem 0;
-    font-size: 60px;;
+    margin: 1rem 0;
+    font-size: 34px;;
 }
 
 .hero__text {
     margin: 0;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .hero__tickets {
     background-color: white;
     color: #4a4deb;
-    font-size: 20px;
+    font-size: 15px;
     padding: 1rem;
     border-radius: 5%;
     text-decoration: none;
-
 }
 
 .hero__ticketimg {
@@ -79,58 +59,53 @@ body {
 
 .subscribe-block__information {
     background-color: #4a4deb;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     padding-top: 3rem;
 }
 
 .subscribe-block__button {
     color:white;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     text-align:center;
-    padding: 3rem;
+    padding: 2rem;
     text-decoration: none;
     display: block;
-    
 }
 
 .subscribe-block__icon {
     width: 27px;
 }
 
-.whatis__container{
+.what-is{
     padding: 3rem;
     display: inline;
     display: flex;
 }
 
-.whatis__img {
+.what-is__img {
     padding: 3rem;
-    width: 251.51px 352.64px;
+    object-fit: contain;
 }
 
-.whatis__GDG {
+.what-is__information {
     padding: 1rem;
-    font-size: 24px;
+    font-size: 22px;
 }
 
-.whatis__DV {
-    font-size: 24px;
+.what-is__answer {
+    font-size: 18px;
 }
 
-.whatis__linkGDG {
+
+.what-is__link {
     color: #4a4deb;
+    font-size: 16px;
     text-decoration: none;
     width: 10px;
 }
 
-.whatis__linkDV {
-    color: #4a4deb;
-    text-decoration: none;
-    width: 10px;
-}
-
-.whatis__icon {
+.what-is__icon {
     width: 25px;
 }
 

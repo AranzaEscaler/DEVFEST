@@ -7,57 +7,131 @@ body {
     background-color: #efefef;
 }
 
-.container__subscribebox {
-    background-color: #4a4deb;
-    width: 100vw;
-    height: 30vh;
-    float: left;
-    color: white;
-    vertical-align: middle;
-    display: table-cell;
-    vertical-align: middle;
+.hero {
+    color:white;
+    height: 1200px;
+    background-color: #efefef;
+    background-image:url(img/home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.container__subscribebox p {
+.hero__container {
+    text-align: center;
+}
+
+.hero__logo {
+    display: flex;
+}
+
+.hero__logoimg {
+    width: 90px;
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+.hero__namelogo {
+    margin: 0;
+    padding: 10rem;
+}
+
+.hero__title {
+    margin: 0;
+    font-size: 100px;
+}
+
+.hero__place {
+    margin: 0;
+    font-size: 40px;
+}
+
+.hero__date {
+    margin: 2rem 0;
+    font-size: 60px;;
+}
+
+.hero__text {
+    margin: 0;
+    font-size: 30px;
+}
+
+.hero__tickets {
+    background-color: white;
+    color: #4a4deb;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 5%;
+    text-decoration: none;
+
+}
+
+.hero__ticketimg {
+    width: 30px;
+}
+
+.subscribe-block {
+    background-color: #4a4deb;
+    width: 100%;
+    color: white;
+}
+
+.subscribe-block__information {
     background-color: #4a4deb;
     font-size: 3rem;
     text-align: center;
     padding-top: 3rem;
 }
 
-.link__subscribe {
+.subscribe-block__button {
     color:white;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align:center;
-    padding-top: 3rem;
+    padding: 3rem;
     text-decoration: none;
-    cursor: pointer;
+    display: block;
+    
 }
 
-.img__subscribe {
-    float: center;
-    width: 25px;
+.subscribe-block__icon {
+    width: 27px;
 }
 
-.img__whatis {
-    width: 500px;
-    height: 400px;
-}
-
-.container__whatisGDG {
-    font-size: 2rem;
+.whatis__container{
+    padding: 3rem;
+    display: inline;
     display: flex;
 }
 
-.container__whatisDV {
-    font-size: 2rem;
-    display: flex;
+.whatis__img {
+    padding: 3rem;
+    width: 251.51px 352.64px;
 }
 
-.container__whatis a {
+.whatis__GDG {
+    padding: 1rem;
+    font-size: 24px;
+}
+
+.whatis__DV {
+    font-size: 24px;
+}
+
+.whatis__linkGDG {
     color: #4a4deb;
     text-decoration: none;
-    width: 15px;
+    width: 10px;
+}
+
+.whatis__linkDV {
+    color: #4a4deb;
+    text-decoration: none;
+    width: 10px;
+}
+
+.whatis__icon {
+    width: 25px;
 }
 
 

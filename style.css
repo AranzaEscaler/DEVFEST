@@ -97,8 +97,13 @@ body {
 }
 
 .speakers__icon {
-    width: 20px;
+    width: 30px;
 }
+
+.speakers__link:hover {
+    background-color: #0005;
+}
+
 .subscribe-block {
     background-color: #4a4deb;
     width: 100%;
@@ -107,16 +112,17 @@ body {
 
 .subscribe-block__information {
     background-color: #4a4deb;
-    font-size: 2rem;
+    font-size: 32px;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 4rem;
 }
 
 .subscribe-block__button {
     color:white;
-    font-size: 1.3rem;
+    font-size: 16px;
     text-align:center;
     padding: 2rem;
+    padding-bottom: 4rem;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -165,7 +171,7 @@ body {
 }
 
 .what-is__icon {
-    width: 20px;
+    width: 30px;
 }
 
 

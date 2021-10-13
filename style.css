@@ -148,7 +148,7 @@ body {
 
 .what-is__information {
     color: #000000;
-    padding: 4rem;
+    padding: 2rem;
     font-size: 24px;
 }
 
@@ -168,6 +168,10 @@ body {
     justify-content: left;
     align-items: center;
     gap: 5px;
+}
+
+.what-is__link:hover {
+    background-color: #0005;
 }
 
 .what-is__icon {

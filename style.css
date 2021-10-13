@@ -119,20 +119,24 @@ body {
 }
 
 .what-is__information {
-    padding: 1rem;
-    font-size: 20px;
+    color: #000000;
+    padding: 4rem;
+    font-size: 24px;
 }
 
 .what-is__answer {
     font-size: 16px;
+    color: #757575;
+    padding: 20px 0px;
 }
 
 
 .what-is__link {
     color: #4a4deb;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     width: 10px;
+    padding: 10px;
 }
 
 .what-is__icon {
